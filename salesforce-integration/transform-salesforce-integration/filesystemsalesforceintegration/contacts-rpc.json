@@ -1,0 +1,81 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+    "report": {
+      "generatedAt": "2025-06-21T08:00:00-05:00",
+      "totals": {
+        "contacts": 5,
+        "countries": 1,
+        "cities": 5,
+        "departments": 5
+      },
+      "departmentsBreakdown": {
+        "Sales": 1,
+        "Marketing": 1,
+        "Engineering": 1,
+        "Human Resources": 1,
+        "Finance": 1
+      }
+    },
+    "directory": {
+      "United States": {
+        "New York": {
+          "Sales": [
+            {
+              "contactId": "US-NY-SAL-001",
+              "fullName": "John Doe",
+              "title": "Sales Manager",
+              "email": "john.doe@email.com",
+              "phone": "1234567890"
+            }
+          ]
+        },
+        "Los Angeles": {
+          "Marketing": [
+            {
+              "contactId": "US-LA-MKT-001",
+              "fullName": "Jane Smith",
+              "title": "Marketing Director",
+              "email": "jane.smith@email.com",
+              "phone": "9876543210"
+            }
+          ]
+        },
+        "Chicago": {
+          "Engineering": [
+            {
+              "contactId": "US-CHI-ENG-001",
+              "fullName": "Robert Johnson",
+              "title": "Senior Engineer",
+              "email": "robert.johnson@email.com",
+              "phone": "(not-provided)"
+            }
+          ]
+        },
+        "Austin": {
+          "Human Resources": [
+            {
+              "contactId": "US-AUS-HR-001",
+              "fullName": "Emily Davis",
+              "title": "HR Manager",
+              "email": "emily.davis@email.com",
+              "phone": "5551234567"
+            }
+          ]
+        },
+        "Seattle": {
+          "Finance": [
+            {
+              "contactId": "US-SEA-FIN-001",
+              "fullName": "Michael Brown",
+              "title": "Finance Director",
+              "email": "michael.brown@email.com",
+              "phone": "5559876543"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "contacts": [
+    {
+      "FirstName": "John",
+      "LastName": "Doe",
+      "Email": "john.doe@email.com",
+      "Phone": "1234567890",
+      "Department": "Sales",
+      "Title": "Sales Manager",
+      "MailingCity": "New York",
+      "MailingCountry": "United States"
+    },
+    {
+      "FirstName": "Jane",
+      "LastName": "Smith",
+      "Email": "jane.smith@email.com",
+      "Phone": "9876543210",
+      "Department": "Marketing",
+      "Title": "Marketing Director",
+      "MailingCity": "Los Angeles",
+      "MailingCountry": "United States"
+    },
+    {
+      "FirstName": "Robert",
+      "LastName": "Johnson",
+      "Email": "robert.johnson@email.com",
+      "Department": "Engineering",
+      "Title": "Senior Engineer",
+      "MailingCity": "Chicago",
+      "MailingCountry": "United States"
+    },
+    {
+      "FirstName": "Emily",
+      "LastName": "Davis",
+      "Email": "emily.davis@email.com",
+      "Phone": "5551234567",
+      "Department": "Human Resources",
+      "Title": "HR Manager",
+      "MailingCity": "Austin",
+      "MailingCountry": "United States"
+    },
+    {
+      "FirstName": "Michael",
+      "LastName": "Brown",
+      "Email": "michael.brown@email.com",
+      "Phone": "5559876543",
+      "Department": "Finance",
+      "Title": "Finance Director",
+      "MailingCity": "Seattle",
+      "MailingCountry": "United States"
+    }
+  ]
+}
