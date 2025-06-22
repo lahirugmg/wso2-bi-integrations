@@ -44,10 +44,10 @@ public function main() returns error? {
         contacts.push(contact);
     }
 
-    ContactsData contactsData = {
-        contacts: contacts
-    };
-    
+    // Write contacts array directly to JSON file
+    check io:fileWriteJson("contacts.json", contacts.toJson());
+    io:println("Successfully wrote contacts to JSON file");
+
     // Create bulk job for Contact object
     bulk:BulkJob|error insertJob = salesforceClient->createJob(
         operation = "insert",
@@ -58,7 +58,7 @@ public function main() returns error? {
     if insertJob is bulk:BulkJob {
         // Convert contact data to CSV string
         string csvContent = "FirstName,LastName,Email,Phone,Department,Title,MailingCity,MailingCountry\n";
-        foreach Contact contact in contactsData.contacts {
+        foreach Contact contact in contacts {
             csvContent += string:'join(",", 
                 contact.FirstName,
                 contact.LastName,

@@ -146,4 +146,86 @@
     <IsActive>true</IsActive>
     <CreatedDate>2025-06-21T20:05:00-05:00</CreatedDate>
   </Contact>
+    <Contact id="8">
+    <FirstName>Laura</FirstName>
+    <LastName>Nguyen</LastName>
+    <Email>laura.nguyen@email.com</Email>
+    <Phone type="work">5552468101</Phone>
+    <Department>Customer Support</Department>
+    <Title>Support Lead</Title>
+
+    <Address type="mailing">
+      <Street>88 Riverfront Pl</Street>
+      <City>Memphis</City>
+      <State>TN</State>
+      <PostalCode>38103</PostalCode>
+      <Country>United States</Country>
+    </Address>
+
+    <PreferredContactMethod>Phone</PreferredContactMethod>
+    <IsActive>true</IsActive>
+    <CreatedDate>2025-06-21T20:05:00-05:00</CreatedDate>
+  </Contact>
+
+  <Contact id="9">
+    <FirstName>David</FirstName>
+    <LastName>Patel</LastName>
+    <Email>david.patel@email.com</Email>
+    <Phone type="work">5551357924</Phone>
+    <Department>Legal</Department>
+    <Title>Compliance Officer</Title>
+
+    <Address type="mailing">
+      <Street>400 Peachtree St NE</Street>
+      <City>Atlanta</City>
+      <State>GA</State>
+      <PostalCode>30308</PostalCode>
+      <Country>United States</Country>
+    </Address>
+
+    <PreferredContactMethod>Email</PreferredContactMethod>
+    <IsActive>true</IsActive>
+    <CreatedDate>2025-06-21T20:05:00-05:00</CreatedDate>
+  </Contact>
+   <Contact id="10">
+    <FirstName>Sophia</FirstName>
+    <LastName>Martinez</LastName>
+    <Email>sophia.martinez@email.com</Email>
+    <Phone type="mobile">5558642097</Phone>
+    <Department>Product</Department>
+    <Title>Product Manager</Title>
+
+    <Address type="mailing">
+      <Street>1750 Biscayne Blvd</Street>
+      <City>Miami</City>
+      <State>FL</State>
+      <PostalCode>33132</PostalCode>
+      <Country>United States</Country>
+    </Address>
+
+    <PreferredContactMethod>Email</PreferredContactMethod>
+    <IsActive>true</IsActive>
+    <CreatedDate>2025-06-21T20:05:00-05:00</CreatedDate>
+  </Contact>
+
+  <Contact id="11">
+    <FirstName>Benjamin</FirstName>
+    <LastName>Lee</LastName>
+    <Email>benjamin.lee@email.com</Email>
+    <Phone type="work">5559753186</Phone>
+    <Department>Research &amp; Development</Department>
+    <Title>R&amp;D Scientist</Title>
+
+    <Address type="mailing">
+      <Street>850 Huntington Ave</Street>
+      <City>Boston</City>
+      <State>MA</State>
+      <PostalCode>02115</PostalCode>
+      <Country>United States</Country>
+    </Address>
+
+    <PreferredContactMethod>Phone</PreferredContactMethod>
+    <IsActive>true</IsActive>
+    <CreatedDate>2025-06-21T20:05:00-05:00</CreatedDate>
+  </Contact>
 </Contacts>
