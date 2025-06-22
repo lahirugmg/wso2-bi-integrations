@@ -15,19 +15,48 @@ final bulk:Client salesforceClient = check new ({
 });
 
 public function main() returns error? {
-    // Read JSON file
-    json contactsJson = check io:fileReadJson("contacts.json");
-    ContactsData contactsData = check contactsJson.cloneWithType();
+    // Read XML file
+    xml xmlContent = check io:fileReadXml("contact-sample.xml");
+    io:println("Successfully read XML file");
+
+    // Extract contacts from XML
+    xml:Element[] contactElements = from xml:Element item in xmlContent/<Contact>
+        select item;
+    
+    if contactElements.length() == 0 {
+        return error("No contacts found in XML file");
+    }
+    io:println(string `Found ${contactElements.length().toString()} contacts`);
+
+    // Convert XML contacts to Contact records
+    Contact[] contacts = [];
+    foreach xml:Element item in contactElements {
+        Contact contact = {
+            FirstName: (item/<FirstName>).data(),
+            LastName: (item/<LastName>).data(),
+            Email: (item/<Email>).data(),
+            Phone: (item/<Phone>).data(),
+            Department: (item/<Department>).data(),
+            Title: (item/<Title>).data(),
+            MailingCity: (item/<Address>/<City>).data(),
+            MailingCountry: (item/<Address>/<Country>).data()
+        };
+        contacts.push(contact);
+    }
+
+    ContactsData contactsData = {
+        contacts: contacts
+    };
     
     // Create bulk job for Contact object
     bulk:BulkJob|error insertJob = salesforceClient->createJob(
-        operation = bulk:INSERT,
+        operation = "insert",
         sobj = "Contact",
-        contentType = bulk:CSV
+        contentType = "CSV"
     );
     
     if insertJob is bulk:BulkJob {
-        // Convert JSON data to CSV string
+        // Convert contact data to CSV string
         string csvContent = "FirstName,LastName,Email,Phone,Department,Title,MailingCity,MailingCountry\n";
         foreach Contact contact in contactsData.contacts {
             csvContent += string:'join(",", 

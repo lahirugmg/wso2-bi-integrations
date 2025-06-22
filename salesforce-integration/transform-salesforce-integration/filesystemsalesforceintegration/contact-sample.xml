@@ -1,0 +1,149 @@
+<Contacts generatedDate="2025-06-21">
+  <Contact id="1">
+    <FirstName>John</FirstName>
+    <LastName>Doe</LastName>
+    <Email>john.doe@email.com</Email>
+    <Phone type="mobile">1234567890</Phone>
+    <Department>Sales</Department>
+    <Title>Sales Manager</Title>
+
+    <Address type="mailing">
+      <Street>123 Madison Ave</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <PostalCode>10001</PostalCode>
+      <Country>United States</Country>
+    </Address>
+
+    <PreferredContactMethod>Email</PreferredContactMethod>
+    <IsActive>true</IsActive>
+    <CreatedDate>2025-06-21T19:45:00-05:00</CreatedDate>
+  </Contact>
+
+  <Contact id="2">
+    <FirstName>Jane</FirstName>
+    <LastName>Smith</LastName>
+    <Email>jane.smith@email.com</Email>
+    <Phone type="mobile">9876543210</Phone>
+    <Department>Marketing</Department>
+    <Title>Marketing Director</Title>
+
+    <Address type="mailing">
+      <Street>456 Sunset Blvd</Street>
+      <City>Los Angeles</City>
+      <State>CA</State>
+      <PostalCode>90028</PostalCode>
+      <Country>United States</Country>
+    </Address>
+
+    <PreferredContactMethod>Phone</PreferredContactMethod>
+    <IsActive>true</IsActive>
+    <CreatedDate>2025-06-21T19:45:00-05:00</CreatedDate>
+  </Contact>
+
+  <Contact id="3">
+    <FirstName>Robert</FirstName>
+    <LastName>Johnson</LastName>
+    <Email>robert.johnson@email.com</Email>
+    <Department>Engineering</Department>
+    <Title>Senior Engineer</Title>
+
+    <Address type="mailing">
+      <Street>789 Lakeshore Dr</Street>
+      <City>Chicago</City>
+      <State>IL</State>
+      <PostalCode>60601</PostalCode>
+      <Country>United States</Country>
+    </Address>
+
+    <PreferredContactMethod>Email</PreferredContactMethod>
+    <IsActive>true</IsActive>
+    <CreatedDate>2025-06-21T19:45:00-05:00</CreatedDate>
+  </Contact>
+
+  <!-- example of two newly-added contacts -->
+  <Contact id="4">
+    <FirstName>Emily</FirstName>
+    <LastName>Davis</LastName>
+    <Email>emily.davis@email.com</Email>
+    <Phone type="work">5551234567</Phone>
+    <Department>Human Resources</Department>
+    <Title>HR Coordinator</Title>
+
+    <Address type="mailing">
+      <Street>321 Aurora St</Street>
+      <City>Seattle</City>
+      <State>WA</State>
+      <PostalCode>98101</PostalCode>
+      <Country>United States</Country>
+    </Address>
+
+    <PreferredContactMethod>Email</PreferredContactMethod>
+    <IsActive>false</IsActive>
+    <CreatedDate>2025-06-21T19:45:00-05:00</CreatedDate>
+  </Contact>
+
+  <Contact id="5">
+    <FirstName>Michael</FirstName>
+    <LastName>Brown</LastName>
+    <Email>michael.brown@email.com</Email>
+    <Phone type="mobile">5559876543</Phone>
+    <Department>Finance</Department>
+    <Title>Financial Analyst</Title>
+
+    <Address type="mailing">
+      <Street>654 Pine St</Street>
+      <City>Denver</City>
+      <State>CO</State>
+      <PostalCode>80202</PostalCode>
+      <Country>United States</Country>
+    </Address>
+
+    <PreferredContactMethod>Email</PreferredContactMethod>
+    <IsActive>true</IsActive>
+    <CreatedDate>2025-06-21T19:45:00-05:00</CreatedDate>
+  </Contact>
+
+  <!-- two additional sample contacts -->
+  <Contact id="6">
+    <FirstName>Alice</FirstName>
+    <LastName>Williams</LastName>
+    <Email>alice.williams@email.com</Email>
+    <Phone type="work">5554321098</Phone>
+    <Department>Operations</Department>
+    <Title>Operations Manager</Title>
+
+    <Address type="mailing">
+      <Street>987 Congress Ave</Street>
+      <City>Austin</City>
+      <State>TX</State>
+      <PostalCode>78701</PostalCode>
+      <Country>United States</Country>
+    </Address>
+
+    <PreferredContactMethod>Phone</PreferredContactMethod>
+    <IsActive>true</IsActive>
+    <CreatedDate>2025-06-21T20:05:00-05:00</CreatedDate>
+  </Contact>
+
+  <Contact id="7">
+    <FirstName>Carlos</FirstName>
+    <LastName>Garcia</LastName>
+    <Email>carlos.garcia@email.com</Email>
+    <Phone type="mobile">5556789012</Phone>
+    <Department>IT</Department>
+    <Title>Systems Administrator</Title>
+
+    <Address type="mailing">
+      <Street>210 Market St</Street>
+      <City>San Francisco</City>
+      <State>CA</State>
+      <PostalCode>94105</PostalCode>
+      <Country>United States</Country>
+    </Address>
+
+    <PreferredContactMethod>Email</PreferredContactMethod>
+    <IsActive>true</IsActive>
+    <CreatedDate>2025-06-21T20:05:00-05:00</CreatedDate>
+  </Contact>
+</Contacts>
